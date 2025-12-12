@@ -1,0 +1,13 @@
+# Build output
+build/
+
+# Compiled executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# VS Code
+.vscode/.force_intellisense_reload
