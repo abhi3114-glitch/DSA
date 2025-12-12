@@ -2,6 +2,9 @@
 using namespace std;
 int main(){
     int a,b;
-    cin>>a>>b;
-    cout<<a+b<<endl;
+    cout<<"Enter first number" <<endl;
+    cin>>a;
+    cout<<"Enter second number" <<endl;
+    cin>>b;
+    cout<<"ANSWER"<<endl<<a+b<<endl;
 }
