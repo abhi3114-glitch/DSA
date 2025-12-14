@@ -15,7 +15,7 @@ int main() {
         }
         
         
-        for(col = row; col >=1; col--) {
+        for(col = 1; col <=row; col++) {
            char name = 'A' + (n - col);
             
             
