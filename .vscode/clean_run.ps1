@@ -11,12 +11,10 @@ if (-not (Test-Path $buildDir)) {
 }
 
 # Compile
-$gpp = "C:\mingw64\bin\g++.exe"
+$gpp = "g++"
 & $gpp -std=c++17 $fileName -o $exePath
 
 # Run if compilation succeeded
 if ($?) {
-    # Temporarily add MinGW to PATH for this execution only
-    $env:PATH = "C:\mingw64\bin;$env:PATH"
     & ".\$exePath"
 }
